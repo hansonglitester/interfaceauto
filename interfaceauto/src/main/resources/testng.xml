@@ -4,7 +4,11 @@
     <test verbose="1" preserve-order="true" name="SequenceTest">
         <classes>
             <!-- 可以多个 -->
-            <class name="com.hsl.cn.testcase.TestUserDetailCase" />
+            <class name="com.hsl.cn.testcase.TestUserDetailCase2" />
         </classes>
     </test>
+
+    <listeners >
+        <listener class-name="com.hsl.cn.config.ExtentTestNGIReporterListener"></listener>
+    </listeners>
 </suite>

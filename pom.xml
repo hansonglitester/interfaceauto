@@ -8,6 +8,7 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.4.RELEASE</version>
     </parent>
+
     <groupId>com.hsl.cn</groupId>
     <artifactId>autotest</artifactId>
     <packaging>pom</packaging>

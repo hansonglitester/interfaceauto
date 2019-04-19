@@ -1,0 +1,11 @@
+com\hsl\cn\testcase\TestUserDetailCase2.class
+com\hsl\cn\config\Config.class
+com\hsl\cn\testcase\TestUserDetailCase1.class
+com\hsl\cn\model\UserDetailCase.class
+com\hsl\cn\utils\HttpClientUtils.class
+com\hsl\cn\config\ExtentTestNGIReporterListener$1.class
+com\hsl\cn\Application.class
+com\hsl\cn\utils\ConfigReader.class
+com\hsl\cn\repository\UserDetailCaseDao.class
+com\hsl\cn\testcase\BaseTest.class
+com\hsl\cn\config\ExtentTestNGIReporterListener.class

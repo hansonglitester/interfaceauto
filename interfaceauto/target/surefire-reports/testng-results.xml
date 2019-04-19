@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5750" started-at="2019-04-16T02:03:10Z" finished-at="2019-04-16T02:03:16Z">
+    <groups>
+    </groups>
+    <test name="SequenceTest" duration-ms="5750" started-at="2019-04-16T02:03:10Z" finished-at="2019-04-16T02:03:16Z">
+      <class name="com.hsl.cn.testcase.TestUserDetailCase2">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="16" started-at="2019-04-16T02:03:10Z" finished-at="2019-04-16T02:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5414" started-at="2019-04-16T02:03:10Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2019-04-16T02:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2019-04-16T02:03:16Z" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hsl.cn.testcase.TestUserDetailCase2.TestUserList2(com.hsl.cn.model.UserDetailCase) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="TestUserList2(com.hsl.cn.model.UserDetailCase)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="TestUserList2" duration-ms="2" started-at="2019-04-16T02:03:16Z" data-provider="userdetaildata" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserDetailCase(id=1, userId=1, except=0000)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserList2 -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-04-16T02:03:16Z" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hsl.cn.testcase.TestUserDetailCase2.TestUserList2(com.hsl.cn.model.UserDetailCase) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="TestUserList2(com.hsl.cn.model.UserDetailCase)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="TestUserList2" duration-ms="1" started-at="2019-04-16T02:03:16Z" data-provider="userdetaildata" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserDetailCase(id=2, userId=2, except=0000)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserList2 -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-04-16T02:03:16Z" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hsl.cn.testcase.TestUserDetailCase2.TestUserList2(com.hsl.cn.model.UserDetailCase) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="TestUserList2(com.hsl.cn.model.UserDetailCase)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="TestUserList2" duration-ms="1" started-at="2019-04-16T02:03:16Z" data-provider="userdetaildata" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserDetailCase(id=3, userId=3, except=0000)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserList2 -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-04-16T02:03:16Z" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hsl.cn.testcase.TestUserDetailCase2.TestUserList2(com.hsl.cn.model.UserDetailCase) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-04-16T02:03:16Z" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hsl.cn.testcase.TestUserDetailCase2.TestUserList2(com.hsl.cn.model.UserDetailCase) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-04-16T02:03:16Z" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hsl.cn.testcase.TestUserDetailCase2.TestUserList2(com.hsl.cn.model.UserDetailCase) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-04-16T02:03:16Z" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hsl.cn.testcase.TestUserDetailCase2.TestUserList3(java.util.Map) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="TestUserList3(java.util.Map)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="TestUserList3" duration-ms="0" started-at="2019-04-16T02:03:16Z" data-provider="userdetaildata3" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userid=1, id=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserList3 -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-04-16T02:03:16Z" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hsl.cn.testcase.TestUserDetailCase2.TestUserList4() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-04-16T02:03:16Z" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hsl.cn.testcase.TestUserDetailCase2.TestUserList3(java.util.Map) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="TestUserList4()[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="TestUserList4" duration-ms="2" started-at="2019-04-16T02:03:16Z" finished-at="2019-04-16T02:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserList4 -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-04-16T02:03:16Z" finished-at="2019-04-16T02:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hsl.cn.testcase.TestUserDetailCase2.TestUserList4() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.hsl.cn.testcase.TestUserDetailCase2@367ffa75]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2019-04-16T02:03:16Z" finished-at="2019-04-16T02:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.hsl.cn.testcase.TestUserDetailCase2 -->
+    </test> <!-- SequenceTest -->
+  </suite> <!-- Suite -->
+</testng-results>
